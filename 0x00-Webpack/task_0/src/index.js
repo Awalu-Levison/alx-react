@@ -1,1 +1,5 @@
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+import $ from 'jquery';
+
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
