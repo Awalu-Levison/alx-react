@@ -1,13 +1,15 @@
 import React from 'react'
-import ReactDOM from 'react-dom' 
 import './App.css'
 
-class App extends ReactDOM {
-	render() {
-		return (
-			<h1 class="App-header">School dashboard</h1>
+function App() {
+	return (
+		<>
+		<div className="App-header">
+		<img src={holberton-logo} alt="logo" />
+		<h1>School dashboard</h1>
+		</div>
+		</>
 		)
 	}
-}
 
 export default App;
