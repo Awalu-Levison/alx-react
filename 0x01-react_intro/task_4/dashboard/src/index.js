@@ -5,14 +5,18 @@ import App from './App';
 import Notifications from './Notifications';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <div className="root-notifications">
-      <Notifications />
-    </div>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
+);
+
+const rootNotifications = ReactDOM.createRoot(document.getElementById("root-notifications"));
+rootNotifications.render(
+  <React.StrictMode>
+    <Notifications />
+  </React.StrictMode>
 );
 
 // measure web performance using reportWebVitals(console.log))
