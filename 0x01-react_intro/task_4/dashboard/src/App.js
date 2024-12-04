@@ -24,4 +24,5 @@ function App() {
   );
 }
 
+{/* export the function for external use */}
 export default App;
